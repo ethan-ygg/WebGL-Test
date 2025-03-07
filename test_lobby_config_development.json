@@ -1,0 +1,112 @@
+{
+  "big_event": [
+    {
+      "name": "",
+      "start_time": "12:12:12",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/EVENTBOARD_001.png"
+    },
+    {
+      "name"      : ""                                                        ,
+      "start_time": "12:13:14"                                                ,
+      "end_time"  : ""                                                        ,
+      "image_url" : "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/axie-infinity.jpg"
+    },
+    {
+      "name": "",
+      "start_time": "02:03:04",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/pilots-edition-01-banner.jpg"
+    }
+  ],
+  "small_event": [
+    {
+      "is_new": true,
+      "name": "",
+      "start_time": "",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/T_EVENT_MINI_001.png"
+    },
+    {
+      "is_new": false,
+      "name": "",
+      "start_time": "",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/T_EVENT_MINI_002.png"
+    },
+    {
+      "is_new": false,
+      "name": "",
+      "start_time": "",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/T_BOARD_EVENT_MINI_COMINGSOON.png"
+    },
+    {
+      "is_new": false,
+      "name": "",
+      "start_time": "",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/T_EVENT_MINI_002.png"
+    },
+    {
+      "is_new": true,
+      "name": "",
+      "start_time": "",
+      "end_time": "",
+      "image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/event/T_EVENT_MINI_001.png"
+    }
+  ],
+  "game_data": [
+    {
+      "id": "001",
+      "game_id": "ab36078a-73e0-4441-b92f-02b04e9d8122",
+      "icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/game/T_GAME_001.png",
+      "loading_image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/BG_001.png",
+      "loading_icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/LOGO_001.png",
+      "coin": 987654321.0
+    },
+    {
+      "id": "002",
+      "game_id": "78ff065f-40b1-4bae-a712-be3b765d27d8",
+      "icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/game/T_GAME_002.png",
+      "loading_image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/BG_002.png",
+      "loading_icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/LOGO_002.png",
+      "coin": 987654321.0
+    },
+    {
+      "id": "003",
+      "game_id": "53553714-3883-4480-b0e0-eab8a35045f5",
+      "icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/game/T_GAME_003.png",
+      "loading_image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/BG_003.png",
+      "loading_icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/LOGO_003.png",
+      "coin": 654321987.0
+    },
+    {
+      "id": "004",
+      "game_id": "692c8506-cf81-4ea7-8a26-3d2700f0fc05",
+      "icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/game/GAME_004.png",
+      "loading_image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/BG_004.png",
+      "loading_icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/LOGO_004.png",
+      "coin": 654321987.0
+    },
+    {
+      "id": "005",
+      "game_id": "f5cf8a0d-7fd8-4eac-a9eb-2da45ab7e899",
+      "icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/game/GAME_005.png",
+      "loading_image_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/BG_005.png",
+      "loading_icon_url": "https://d3581v2f8sc4yn.cloudfront.net/lobby/resources/images/Loading_background/LOGO_005.png",
+      "coin": 654321987.0
+    },
+    {
+      "id": "006",
+      "game_id": "f8c171e6-5483-40a9-86af-d0818c385446",
+      "coin": 654321987.0
+    },
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""},
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""},
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""},
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""},
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""},
+    {"id": "", "icon_url": "", "coin": -1.0, "catalog_url": ""}
+  ]
+}
