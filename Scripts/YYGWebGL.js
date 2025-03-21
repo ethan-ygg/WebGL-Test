@@ -25,6 +25,8 @@ function YYGOnOrientationChanged(orientation)
 
 function YYGOnGameSizeChanged()
 {
+	log.textContent = "SIZE CHANGED!";
+
 	if(window.unityInstance)
 	{
 		window.unityInstance.SendMessage(defaultObjectName,"OnSizeChanged");
@@ -33,6 +35,8 @@ function YYGOnGameSizeChanged()
 
 function YYGOnBrowserFocus()
 {
+	log.textContent = "This document has focus. Click outside the document to lose focus.";
+	
 	if(window.unityInstance)
 	{
 		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserFocus");
@@ -41,6 +45,8 @@ function YYGOnBrowserFocus()
 
 function YYGOnBrowserBlur()
 {
+	log.textContent = "FOCUS LOST!";
+    
 	if(window.unityInstance)
 	{
 		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserBlur");
