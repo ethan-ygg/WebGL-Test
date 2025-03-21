@@ -31,6 +31,22 @@ function YYGOnGameSizeChanged()
 	}
 }
 
+function YYGOnBrowserFocus()
+{
+	if(window.unityInstance)
+	{
+		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserFocus");
+	}
+}
+
+function YYGOnBrowserBlur()
+{
+	if(window.unityInstance)
+	{
+		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserBlur");
+	}
+}
+
 //binding web event
 screen.orientation.addEventListener("change", (event) => {
   const type = event.target.type;
@@ -38,3 +54,5 @@ screen.orientation.addEventListener("change", (event) => {
 });
 
 window.addEventListener("resize", YYGOnGameSizeChanged);
+window.onfocus = YYGOnBrowserFocus;
+window.onblur = YYGOnBrowserBlur;
