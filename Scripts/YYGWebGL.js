@@ -33,20 +33,18 @@ function YYGOnGameSizeChanged()
 
 function YYGOnBrowserShow()
 {
-	console.log("This document has focus. Click outside the document to lose focus.");
-	
 	if(window.unityInstance)
 	{
+		console.log("This document has focus. Click outside the document to lose focus.");
 		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserShow");
 	}
 }
 
 function YYGOnBrowserHide()
 {
-	console.log("FOCUS LOST!");
-    
 	if(window.unityInstance)
 	{
+		console.log("FOCUS LOST!");
 		window.unityInstance.SendMessage(defaultObjectName,"OnBrowserHide");
 	}
 }
