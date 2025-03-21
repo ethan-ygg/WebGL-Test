@@ -54,5 +54,5 @@ screen.orientation.addEventListener("change", (event) => {
 });
 
 window.addEventListener("resize", YYGOnGameSizeChanged);
-window.onfocus = YYGOnBrowserFocus;
-window.onblur = YYGOnBrowserBlur;
+window.addEventListener("blur", YYGOnBrowserBlur);
+window.addEventListener("focus", YYGOnBrowserFocus);
