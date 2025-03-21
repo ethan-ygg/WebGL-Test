@@ -53,8 +53,8 @@ screen.orientation.addEventListener("change", (event) => {
 
 window.addEventListener("resize", YYGOnGameSizeChanged);
 
-document.addEventListener("visibilitychange", function () {
-  if (document.visibilityState === "hidden") {
+window.addEventListener("visibilitychange", function () {
+  if (window.visibilityState === "hidden") {
     // Page is hidden (user switched tab or minimized browser)
     // Perform actions here, e.g., pause media, save progress, etc.
     console.log("Page is hidden");
